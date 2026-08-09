@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django stuff:
+db.sqlite3
+*.sqlite3
+
+# VS Code
+
+# macOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# Test files
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# static files (if you collectstatic)
+staticfiles/
+static/
+
+# media files (user uploads)
+media/
+
+# Stripe secret keys (if any stored locally)
+stripe_secret.json
+config.bat
+node_modules
